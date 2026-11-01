@@ -1,0 +1,10 @@
+StrOutputParser
+
+The StrOutputParser is the simplest output parser in LangChain. it is used to parse the output of a LLM and return it as a plain string,
+
+
+topic ----> LLM -----> detailed report  ---> LLM ---> Summarize in 5 lines
+
+JSONoutputParser
+
+LLM ---> json
